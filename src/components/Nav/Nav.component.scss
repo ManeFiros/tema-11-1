@@ -1,0 +1,29 @@
+@import "../../styles/colors.scss"; 
+.Nav { 
+    align-items: center;
+    min-height: 10vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navDia{    
+    background-color: $info !important;
+}
+
+.navNoche{    
+    background-color: $dark !important;
+}
+
+.Nav-link { 
+    color: $light !important;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 12px;
+    text-decoration: none;
+}
+
+.Nav-link:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
